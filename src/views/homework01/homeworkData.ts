@@ -1,4 +1,4 @@
-import { Course } from "@/datasource/Type-homework";
+import { Course } from "@/views/homework01/Type-homework";
 
 export function listCourses() {
   const courses: Course[] = [

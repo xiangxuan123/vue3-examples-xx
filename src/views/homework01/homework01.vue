@@ -21,8 +21,8 @@
 </template>
 <script lang="ts">
 import { defineComponent, ref, watch } from "vue";
-import { Course } from "@/datasource/Type-homework";
-import { listCourses } from "@/datasource/homeworkData";
+import { Course } from "@/views/homework01/Type-homework";
+import { listCourses } from "@/views/homework01/homeworkData";
 const selectedCourses: Course[] = [];
 export default defineComponent({
   setup() {
