@@ -8,6 +8,10 @@
           setup(ref computed watch)
         </router-link>
       </li>
+      <li><router-link to="/example03">数据绑定</router-link></li>
+      <!-- Homework -->
+      <hr />
+      <li><router-link to="/homework01">homework01</router-link></li>
     </ul>
   </div>
 </template>
