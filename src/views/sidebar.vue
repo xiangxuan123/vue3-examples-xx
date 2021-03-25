@@ -9,6 +9,9 @@
         </router-link>
       </li>
       <li><router-link to="/example03">数据绑定</router-link></li>
+      <li>
+        <router-link to="/example04">vuex实例 同步异步更新数据</router-link>
+      </li>
       <!-- Homework -->
       <hr />
       <li><router-link to="/homework01">homework01</router-link></li>
