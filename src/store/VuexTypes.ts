@@ -1,1 +1,5 @@
 export const UPDATE_USER = "UPDATE_USER";
+export const GETTER_PREMISSION = "GETTER_PREMISSION";
+export const UPDATE_ORDER = "UPDATE_ORDER";
+export const SHOP_LIST = "SHOP_LIST";
+export const GET_SHOPDETAIL = "GET_SHOPDETAIL";
