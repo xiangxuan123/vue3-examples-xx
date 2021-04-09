@@ -38,6 +38,7 @@ export default defineComponent({
         c => (sumPoint.value = sumPoint.value + c.point)
       );
       if (sumPoint.value >= 17.5) colorPoint.value = "green";
+      else colorPoint.value = "red";
       scheckboxRef.value.sort((a, b) => {
         return a.term - b.term;
       });
