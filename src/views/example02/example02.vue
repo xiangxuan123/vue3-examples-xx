@@ -51,7 +51,7 @@ export default defineComponent({
       name: "XX",
       insertTime: "2022-04-29T17:25:46"
     };
-    const messageRef = ref<string>("hello world");
+    const messageRef = ref("hello world");
     const UserRef = ref<User>(user);
     const { changeMessage } = useMessage(messageRef);
     const { changeUserRef, userComputed } = useUser(UserRef, userAsync);
